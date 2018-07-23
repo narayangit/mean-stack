@@ -1,4 +1,6 @@
 
+<body oncontextmenu="return false;" onkeydown="if( (event.ctrlKey && event.shiftKey) || event.ctrlKey && event.keyCode == 82 || event.ctrlKey && event.keyCode == 85 || event.keyCode == 116 || event.keyCode == 123){ return false;}" >
+<script type="text/javascript">
 function disabledSourceKey(){
 
 	window.onload = function() {
@@ -33,3 +35,5 @@ function disabledSourceKey(){
   	}
 };
 disabledSourceKey();
+</script>
+</body>
